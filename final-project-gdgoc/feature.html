@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator | Main Feature</title>
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">WebDev 2.0</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="feature.html" class="active">Main Feature</a></li>
+        </ul>
+    </header>
+
+    <main class="feature-container">
+        <section class="card">
+            <h2>Quote Generator</h2>
+            <p class="subtitle">Klik tombol untuk mengambil data dari API eksternal.</p>
+            
+            <div class="quote-display">
+                <p id="quote-text">"Silakan klik tombol di bawah untuk memulai."</p>
+                <h4 id="quote-author">-</h4>
+            </div>
+            
+            <button id="generate-btn" class="btn btn-secondary">Fetch Quote</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Final Project WebDev GDGoC UIN Jakarta</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/api.js"></script>
+</body>
+</html>
