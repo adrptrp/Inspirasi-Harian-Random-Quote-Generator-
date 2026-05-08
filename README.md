@@ -4,6 +4,11 @@ Repositori ini berisi *source code* untuk pemenuhan tugas **Final Project Web De
 
 Aplikasi ini adalah *Single Page Application* (SPA) sederhana yang dirancang untuk menampilkan kutipan acak kepada pengguna, menggunakan integrasi data dinamis dari API publik.
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-green)
+
 ## ✨ Fitur Utama
 
 * **Dynamic Data Fetching:** Menggunakan JavaScript Asynchronous (`Fetch API`) untuk mengambil data dari server eksternal secara *real-time* tanpa perlu memuat ulang halaman.
